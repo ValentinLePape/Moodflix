@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.movie-card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
